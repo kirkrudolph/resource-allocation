@@ -4,7 +4,7 @@ import scipy as sp
 from scipy import sparse
 
 # Generate problem data
-sp.random.seed(1)
+np.random.seed(1)
 m = 30
 n = 20
 Ad = sparse.random(m, n, density=0.7, format='csc')
